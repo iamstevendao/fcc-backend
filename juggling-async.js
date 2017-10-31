@@ -1,6 +1,5 @@
 var http = require('http')
 var bl = require('bl')
-var async = require('async')
 var responses = []
 var length = 0
 var urls = []
@@ -24,8 +23,8 @@ urls.forEach((value, i) => {
   http.get(value, (response) => {
     response.setEncoding('utf8')
     response.pipe(bl((err, data) => {
-      responses[i] = data.toString()
-      length++
+      responses[i] = data.toString() // store data in the responses
+      length++ // increase the counter
       // print all data in order when all 3 reponses
       if (length === 3) {
         responses.forEach((value) => {
