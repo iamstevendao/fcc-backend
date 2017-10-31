@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.5.0",
+    "bl": "^1.2.1",
     "learnyounode": "^3.5.10"
   }
 }
