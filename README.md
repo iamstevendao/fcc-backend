@@ -5,6 +5,7 @@
 - Node TCP Server/Client
 - Node HTTP Server
 - Express.js
+- MongoDB
 
 ### Checkout my projects in Front End Dev at [codepen.io](https://codepen.io/iamstevendao)
 
