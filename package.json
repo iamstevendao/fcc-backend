@@ -16,6 +16,7 @@
     "express": "^4.16.2",
     "jade": "^1.11.0",
     "learnyounode": "^3.5.10",
+    "mongodb": "^2.2.33",
     "stylus": "^0.54.5",
     "through2-map": "^3.0.0"
   }
